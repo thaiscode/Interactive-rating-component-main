@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | Interactive rating component</title>
+
+</head>
+<body>
+
+  <!-- Rating state start -->
+<main>
+  <section class="section">
+    <img src="/interactive-rating-component-main/images/icon-star.svg" class="section__img section__img1">
+    <h1 class="section__title">How did we do?</h1>
+
+    <p class="section__paragraph">Please let us know how we did with your support request. All feedback is appreciated 
+    to help us improve our offering!</p>
+
+    <form class="box">
+      <input type="radio" name="btnRating" id="1" value="1" class="box__btn" onclick="onRating(1)">
+      <label for="1" class="box__btn">1</label>
+  
+      <input type="radio" name="btnRating" id="2" value="2" class="box__btn" onclick="onRating(2)">
+      <label for="2">2</label>
+  
+      <input type="radio" name="btnRating" id="3" value="3" class="box__btn" onclick="onRating(3)">
+      <label for="3">3</label>
+  
+      <input type="radio" name="btnRating" id="4" value="4" class="box__btn" onclick="onRating(4)">
+      <label for="4">4</label>
+  
+      <input type="radio" name="btnRating" id="5" value="5" class="box__btn" onclick="onRating(5)">
+      <label for="5">5</label>
+  </form>
+
+    <button class="section__btn">Submit</button>
+  </section>
+  <!-- Rating state end -->
+
+  <!-- Thank you state start -->
+  <section class="section section2" id="section2">
+    <img src="/interactive-rating-component-main/images/illustration-thank-you.svg" class="section2__img">
+
+    <p class="section2__rate">You selected <!-- Add rating here --> out of 5</p>
+
+    <h1 class="section__title section2__title">Thank you!</h1>
+
+    <p class="section__paragraph section2__paragraph">We appreciate you taking the time to give a rating. If you ever need more support, 
+      don’t hesitate to get in touch!</p>
+  </section>
+  <!-- Thank you state end -->
+</main>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/thaiscode">@thaiscode</a>.
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

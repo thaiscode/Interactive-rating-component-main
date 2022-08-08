@@ -1,0 +1,16 @@
+input[type="radio"] {
+    display: none;
+}
+
+input[type="radio"] + label {
+    width: 2rem;
+    height: auto;
+    padding: 0.7rem 1rem;
+    border-radius: 50%;
+    background-color: violet;
+    
+}
+
+input[type="radio"]:checked + label {
+    background: grey;
+}
