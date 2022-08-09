@@ -6,16 +6,17 @@ let btn
 
 submit.addEventListener('click', onSubmit)
 
-function onSubmit() {
-            state1.style.display = 'none'
-            state2.style.display = 'flex'
-     
-} 
-
 function onRating(num) {
       let btn = num
       rate.innerHTML = `You selected ${btn} out of 5`
 }
+
+function onSubmit() {
+      state1.style.display = 'none'
+      state2.style.display = 'flex'
+} 
+
+
 
 
 
