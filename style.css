@@ -22,7 +22,7 @@ main {
     width: 90vw;
     height: auto;
     margin: 0 auto;
-    background-color: hsl(213, 19%, 18%);
+    background: linear-gradient(180deg, hsl(213, 19%, 18%), hsl(214, 28%, 11%) );
     border-radius: 25px;
 }
 
